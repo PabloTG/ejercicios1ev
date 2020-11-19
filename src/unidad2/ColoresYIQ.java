@@ -17,7 +17,7 @@ public class ColoresYIQ {
 		System.out.println("Por favor, introduzca la componente B del color: ");
 		float componenteB = entradaDeDatos.nextFloat();
 		
-		//Declaro las variables YIQ y las calculo.
+		// Declaro las variables YIQ y las calculo.
 		float componenteY = (float) (0.299 * componenteR + 0.587 * componenteG + 0.114 * componenteB);
 		float componenteI = (float) (0.596 * componenteR - 0.275 * componenteG - 0.321 * componenteB);
 		float componenteQ = (float) (0.212 * componenteR - 0.528 * componenteG + 0.311 * componenteB);
